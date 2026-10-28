@@ -1,6 +1,8 @@
 # Rust Crates Security Auditor (Laya Testbed)
 
-An experimental Python utility designed to audit Rust crate dependencies by combining static heuristic scanning with structured local decision models. 
+An experimental Rust crate auditor combining laya (System 1 heuristics) with local decision models.
+
+![Screenshot](audit-rust-crates-laya.png)
 
 > ⚠️ **Disclaimer**: This project is **not** intended to replace production tools like `cargo-vet`. Its primary purpose is to serve as an experimental testbed for evaluating the **Laya** decision model (`convaiinnovations/laya`) in reducing false positives typically found in static security heuristics (such as flagging `std::env` or `std::process` usage across dependencies).
 
